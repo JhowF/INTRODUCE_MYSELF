@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+#nome{
+    text-align: center;
+    
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    
+    /* text-decoration: underline brown 12%; */
+    
+}
+#hrtop{
+    margin-top: 40px;
+}
+#body1{ 
+    
+    /* background-color: #666;  */
+    background-image: url(/IMG/fundo3.png);
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+p{
+    font-size: 0.5cm;
+        margin-right: 50%;
+        margin-left: 1.4%; 
+        padding-top: 1.5%;
+        
+        color: whitesmoke;
+        font-size: larger;
+        word-spacing: 5px;
+        line-height: 30px;
+
+}
+h4{
+        
+        font-size: 0.5cm;
+        margin-right: 50%;
+        margin-left: 1.4%; 
+        padding-top: 1.5%;
+        
+        color: whitesmoke;
+        font-size: larger;
+        word-spacing: 5px;
+        line-height: 30px;
+        
+        
+        
+}
+
+.aba_imagem{
+    
+    width: auto;
+    min-height: 700px;
+ 
+    
+    
+}
+#perfil{
+    
+    
+    height: 600px;
+    
+    position: relative;
+    right: 90px;
+    
+    float: right;
+    margin-top: -4%;
+    
+    
+    border-radius: 40%;
+    opacity:0.3 ;
+}
+#b1{
+    
+    text-align: center;
+    padding-right: 50%;
+    padding-top: 5%;
+    word-spacing: 5px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    
+    
+    
+    
+    
+    
+    
+    
+}
+.all{
+    color: floralwhite;
+    
+}
+
+
+
+
+
+.main_tabs{    
+    position: relative;
+    height: 700px;
+    background-color: #14173d;
+    /* background-image: url(/IMG/fundo3.png); */
+
+}
+
+.main_tabs ul{
+    list-style: none;
+    
+    
+    
+}
+.main_tabs ul li{
+    padding-left: 0px;
+    float: left;
+    display: block;
+    
+    
+    
+}
+.main_tabs label{
+    width: 170px;
+    padding: 20px;
+    background-color: #0063e5;
+    display: block;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    
+    
+    
+}
+
+
+
+
+.menu_p:checked ~ label{
+    background-color: #0063e5;
+    color: black;
+    
+}
+
+.menu_p{
+    display: none;
+    
+    
+}
+
+.content{
+    background-color: #14173d;
+    /* background-image: url(/IMG/fundo3.png); */
+    background-repeat: no-repeat;
+    
+    display: none;
+    position: absolute;
+    height: 700px;
+    width: max-content;
+    left: -25%;
+    
+    
+
+}
+.menu_p:checked ~ .content{
+    display: block;
+    
+}
+
+#h4sobre{
+    text-align: center;
+    padding-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+ul{
+    position: relative;
+    left: 393px;
+}
+#h4top{
+    padding-bottom: 100px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.A_contec{
+    height: 600px;
+    width:700px;
+    margin-left: 70px;
+    padding-left: 20px;
+    max-width: max-content;
+}
+#h4projeto1{
+    text-align: justify;
+    max-width: 1500px;
+    padding-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    
+}
+
+#h4projeto2{
+    text-align: justify;
+    max-width: 1500px;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    
+}
+#h4projeto20{
+    text-align: justify;
+    max-width: 1500px;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+
+#h4projeto3{
+    text-align: justify;
+    max-width: 1500px;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+#h4projeto4{
+    text-align: justify;
+    padding-right: 160px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    
+    
+}
+hr{
+    margin-top: 100px;
+}
+
+
+.rodape{
+      
+background-color: #14173d;
+color: white;
+
+
+height: 25px;
+width: 100%;
+bottom: 0;
+left: 0;
+padding-left: 20px;
+    
+}    
+#rodapeletra{
+    text-align: left;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 17px;
+}
+.rodapecertificado{
+    padding-top: 76px;
+    padding-left: 18px;
+    font-size: 17px;
+}
+.rodapecontato{
+    padding-top: 190px;
+    padding-left: 18px;
+    font-size: 17px;
+}
+.psobre{
+    text-align: justify;
+    max-width: 3290.7px;
+    padding-left: 0;
+    padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    
+}
+
+.h3sobre{
+    padding-left: 30px;
+}
+
+#contentsobre{
+    background-image: url("/IMG/fundo3.png");
+    height: 1000px;
+}
+#projetosid{
+    height: 3830px;
+}
+
+
+#contentcertificados{
+    height: 700px;
+    width: 150%;
+}
+.contattt{
+    text-align: left;
+    padding-left: 10px;
+    inline-size: 1500px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition-property: color, margin-left;
+    transition-duration: 0.5s;
+    
+}
+a:hover, a:focus{
+    color: #0063e5;
+    margin-left: 20px;
+    
+}
+#contentcontato{
+    height: 700px;
+    width: 150%;
+}
+
+.certf{
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+
+@media (max-width: 1024px){
+    #hrtop{
+        margin-top: 30px;
+    }
+    #h4top{
+        margin-top: -100px;
+    }
+    #perfil{
+        height: 400px;
+        margin-top: -6%;
+        right: 100px;
+        
+        }
+    #b1{
+        font-size: 16px;
+        padding-top: 15%;
+    }
+    .aba1{
+        min-height: 400px;
+
+    }
+    h4{
+        font-size: small;
+        margin-right: 55%;
+        margin-left: 0.3%;
+        
+        
+    
+    }
+    #b1{
+    
+        word-spacing: 3px;
+        line-height: 30px;       
+        
+        
+    }
+    ul{
+        position: relative;
+        left: 40px;
+    }
+    
+    .main_tabs ul li{
+        padding-left: 0px;
+        float: left;
+        margin-left: 0px;}
+    
+    .content{
+            left: -5%;}
+    .A_contec{
+        height: 400px;
+        width:430px;
+        text-align: justify;
+        padding-left: 50px;
+        margin: 0;
+    }
+    #h4projeto1{
+        text-align: justify;
+        max-width: 950px;
+        padding-top: 0px;
+        font-weight: 100;
+    }
+
+    #h4projeto2{
+        text-align: justify;
+        max-width: 950px;
+        padding-top: 100px;
+        font-weight: 100;
+    }
+    #h4projeto20{
+        text-align: justify;
+        max-width: 950px;
+        padding-top: 10px;
+        font-weight: 100;
+    }
+
+
+    #h4projeto3{
+        text-align: justify;
+        max-width: 950px;
+        padding-top: 100px;
+        font-weight: 100;
+    }
+    #h4projeto4{
+        text-align: justify;
+        padding-right: 160px;
+        font-weight: 100;
+        
+    }
+    hr{
+        margin-top: 100px;
+    }
+  
+    .rodape{
+      
+        background-color: #666;
+        color: white;
+        
+        
+        height: 25px;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        padding-left: 20px;
+            
+        }    
+        #rodapeletra{
+            text-align: left;
+            margin-top: 0;
+            padding-top: 0;
+            font-size: 17px;
+        }
+        .psobre{
+            text-align: justify;
+            max-width: 2190.7px;
+            padding-left: 0;
+            padding-right: 260px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 100;
+            
+        }
+        
+        .h3sobre{
+            padding-left: 15px;
+        }
+        
+        #contentsobre{
+            background-image: url("/IMG/fundo3.png");
+            height: 1000px;
+        }
+}
+
