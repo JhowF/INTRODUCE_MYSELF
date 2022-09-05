@@ -174,35 +174,8 @@ ul{
 }
 
 
-.rodape{
-      
-/* background-color: #14173d; */
-color: orangered;
+   
 
-
-height: 25px;
-width: 100%;
-bottom: 0;
-left: 0;
-padding-left: 20px;
-    
-}    
-#rodapeletra{
-    text-align: left;
-    margin-top: 0;
-    padding-top: 0;
-    font-size: 17px;
-}
-.rodapecertificado{
-    padding-top: 58px;
-    padding-left: 18px;
-    font-size: 17px;
-}
-.rodapecontato{
-    padding-top: 270px;
-    padding-left: 18px;
-    font-size: 17px;
-}
 .psobre{
     text-align: justify;
     max-width: 3290.7px;
@@ -224,22 +197,28 @@ padding-left: 20px;
 
 #contentsobre{
     /* background-image: url("/IMG/fundo3.png"); */
-    height: 1000px;
+    margin-top: 20px;
+    /* height: 1000px; */
     background: linear-gradient(to top, #666, #5c5757,rgb(131, 125, 125), black );
+    height: max-content;
 
 }
 #projetosid{
-    height: 3100px;
+    margin-top: 20px;
+    /* height: 3100px; */
+    height: max-content;
     background: linear-gradient(to top, #666, #5c5757,rgb(131, 125, 125), black );
 }
 
 
 #contentcertificados{
-    height: 520px;
+    margin-top: 20px;
+    height: 824px;
     width: 150%;
     background: linear-gradient(to top, #666, #5c5757,rgb(131, 125, 125), black );
 }
 .contattt{
+    margin-top: 20px;
     text-align: left;
     padding-left: 10px;
     inline-size: 1500px;
@@ -270,9 +249,24 @@ a:hover, a:focus{
     
 }
 #contentcontato{
-    height: 547px;
+    height: 824px;    
     width: 150%;
-    background: linear-gradient(to top, #666, #5c5757,white, black );
+    background: linear-gradient(to top, #666, #5c5757, black );
+}
+#pcontato{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 17px;
+    margin-left: 300px;
+    margin-right: 600px;
+    
+    
+}
+.pcontatoclass{
+    margin-top: -240px;
+}
+#contatoend{
+    margin-top: -20px;
 }
 
 .certf{
@@ -284,6 +278,7 @@ a:hover, a:focus{
     padding-bottom: 11px;
 }
 #zapimagem{
+    
     padding-left: 6px;
     height: 30px;
     padding-bottom: 13px
@@ -306,7 +301,7 @@ a:hover, a:focus{
     height: 150px;
     width: 100%;
 }
-    
+
     
 
 @media (max-width: 1024px){
@@ -371,25 +366,8 @@ a:hover, a:focus{
         
     }
     
-    .rodape{
-      
-        /* background-color: #666; */
-        color: white;
-        
-        
-        height: 25px;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        padding-left: 20px;
-            
-        }    
-    #rodapeletra{
-        text-align: left;
-        margin-top: 0;
-        padding-top: 0;
-        font-size: 17px;
-    }
+ 
+  
     .psobre{
         text-align: justify;
         max-width: 2190.7px;
@@ -410,16 +388,7 @@ a:hover, a:focus{
         /* background-image: url("/IMG/fundo3.png"); */
         height: 1150px;
     }
-    .rodapecertificado{
-        padding-top: 58px;
-        padding-left: 18px;
-        font-size: 17px;
-    }
-    .rodapecontato{
-        padding-top: 270px;
-        padding-left: 18px;
-        font-size: 17px;
-    }
+ 
     #Foto_Minha{
         position: absolute;
         height: 180px;
@@ -443,8 +412,28 @@ a:hover, a:focus{
     #contentcontato{
         height: 547px;
         width: 150%;
+    }
+    #pcontato{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        font-size: 16px;
+        font-weight: 100;
+        margin-left: 300px;
+        margin-right: 600px;
+        
         
     }
+    .pcontatoclass{
+        margin-top: -257px;
+    }
+    #contatoend{
+        margin-top: -20px;
+    }
+    #mechendoicones{
+        margin-top: 65px;
+    }                       
+        
+    
         
 }
 
